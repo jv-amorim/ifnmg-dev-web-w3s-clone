@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #323442;
+  color: white;
+  font-weight: 100;
+
+  display: flex;
+  align-items: center;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #282b34;
+  height: 32px;
+}
+
+.nav span {
+  margin-right: 10px;
+}
+
+.nav span a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.content {
+  padding: 20px 10px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin: 20px 0px;
+}
+
+.content table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.content table tr td {
+  padding: 16px 10px;
+  display: table-cell;
+}
+
+.content table tr td a {
+  text-decoration: none;
+  color: black;
+}
+
+.content table tr:nth-child(2n + 1) {
+  background-color: #eee;
+}
+
+th {
+  text-align: left;
+  padding: 5px 5px;
+  background-color: #ccc;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-disclaimer {
+  padding-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-nav-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-nav span {
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+
+.footer-nav span a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #282b34;
+}
+
+.example {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.example p {
+  padding: 10px 0px 20px;
+}
+
+.example-code {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-family: monospace;
+}
+
+.tag-span {
+  font-family: monospace;
+  font-size: large;
+
+  background-color: #ddd;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.nav-row-button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

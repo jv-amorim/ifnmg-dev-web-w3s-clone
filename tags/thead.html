@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="../index.html">Guia HTML5</a></h1>
+        <div class="nav-row">
+          <div class="nav">
+            <span><a href="../index.html"> Homepage</a></span>
+            <span><a href="../sobre.html"> Sobre</a></span>
+            <span><a href="../referencia.html">Tags</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-row-button">
+    
+            <a href="emded.html" >
+            <button>Anterior</button>
+            </a> 
+
+            <a href="rt.html">
+                <button>Próximo</button>
+             </a> 
+                  
+      </div>
+
+      
+      <div class="content">
+        <h2> Tag HTML &lt;thead></h2>
+        <div class="example">
+          <h3>Exemplo</h3>
+          <p>Uma tabela HTML com um elemento &lt;thead>, &lt;tbody> e um &lt;tfoot>: </p>
+          <div class="example-code">
+            &lt;table></br>
+                &lt;thead> </br>
+                &nbsp;&lt;tr></br>
+                &nbsp;&nbsp;&nbsp;&lt;th>Month&lt;/th></br>
+                &nbsp;&nbsp;&nbsp;&lt;th>Savings&lt;/th></br>
+                &nbsp;&nbsp;&lt;/tr></br>
+                &nbsp;&lt;/thead></br>
+                &nbsp;&lt;tbody></br>
+                &nbsp;&nbsp;&lt;tr></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>January&lt;/td></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>$100&lt;/td></br>
+                &nbsp;&nbsp;&lt;/tr></br>
+                &nbsp;&nbsp;&lt;tr></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>February&lt;/td></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>$80&lt;/td></br>
+                &nbsp;&nbsp;&lt;/tr></br>
+                &nbsp;&lt;/tbody></br>
+                &nbsp;&lt;tfoot></br>
+                &nbsp;&nbsp;&lt;tr></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>Sum&lt;/td></br>
+                &nbsp;&nbsp;&nbsp;&lt;td>$180&lt;/td></br>
+                &nbsp;&nbsp;&lt;/tr></br>
+                &nbsp;&lt;/tfoot></br>
+                &lt;/table></br>
+          </div>
+        </div>
+        <h2>Definição e Uso</h2>
+        <p>
+          A tag <span class="tag-span">&lt;thead></span> é usada para agrupar o conteúdo do cabeçalho em uma tabela HTML.</br> 
+            </br>
+          O elemento <span class="tag-span">&lt;thead></span> é usado em conjunto com os elementos <span class="tag-span">&lt;tbody></span> e <span class="tag-span">&lt;tfoot></span> para Especificar cada parte de uma tabela (cabeçalho,corpo,rodapé). </br>
+            </br>
+            Os navegadores podem usar esses elementos para permitir a rolagem do corpo da tabela idependente do cabeçalho e rodapé. Além disso, ao imprimir uma tabela grande que abrange várias páginas, esses elementos podem permitir que o cabeçalho e o rodapé da tabela sejam impressos na parte superior e inferior de cada pagina.</br>
+            </br>
+            <b>Observação:</b> O elemento <span class="tag-span">&lt;thead></span> deve conter uma ou mais tags <span class="tag-span">&lt;tr></span>. </br>
+        </br>
+        A tag <span class="tag-span">&lt;thead></span> deve ser usada no seguinte contexto: como filho de um elemento <span class="tag-span">&lt;table></span> após qualquer elemento <span class="tag-span">&lt;caption></span> e <span class="tag-span">&lt;colgroup></span> e antes de qualquer elemento <span class="tag-span">&lt;body></span>, <span class="tag-span">&lt;tfoot></span> e <span class="tag-span">&lt;tr></span>. </br>
+    </br>
+    <b>Dica:</b> Os elementos <span class="tag-span">&lt;thead></span>, <span class="tag-span">&lt;tbody></span> e <span class="tag-span">&lt;tfoot></span> não afetarão o layout da tabela por padrão. No entanto, você pode usar CSS para estilizar esses elementos(veja o exemplo abaixo)!
+ </p>
+
+        <h2>Atributos Globais</h2>
+        <p>
+          A tag <span class="tag-span">&lt;thead></span> também suporta
+          <a href="https://www.w3schools.com/tags/ref_standardattributes.asp"> atributos globais </a> do HTML.
+        </p>
+        
+        <h2>Atributos de Evento</h2>
+        <p>
+          A tag
+          <span class="tag-span">&lt;thead></span> também suporta
+          <a href="https://www.w3schools.com/tags/ref_eventattributes.asp"> atributos de evento </a> do HTML.
+        </p>
+        
+      
+        <h2>CSS padrão</h2>
+        <div class="example">
+          <h3>Exemplo</h3>
+          <div class="example-code">
+            thead {<br />
+            &nbsp;display: table-header-group;<br />
+            &nbsp;vertical-align: middle;<br />
+            &nbsp;border-color: inherit;<br />
+            }
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+         <span class="footer-disclaimer">Copyright &copy; 2021</span>
+         <div class="footer-nav-row">
+            <div class="footer-nav">
+              <span><a href="../index.html"> Homepage</a></span>
+              <span><a href="../sobre.html"> Sobre</a></span>
+              <span><a href="../referencia.html">Tags</a></span>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>
