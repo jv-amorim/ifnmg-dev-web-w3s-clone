@@ -158,6 +158,10 @@ th {
   margin-bottom: 20px;
 }
 
+.content .example p {
+  margin-bottom: 0px;
+}
+
 .nav-row-button {
   display: flex;
   justify-content: space-between;
