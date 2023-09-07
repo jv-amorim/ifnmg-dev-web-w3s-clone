@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1><a href="../index.html">Guia HTML5</a></h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span><a href="../index.html"> Homepage</a></span>
+          <span><a href="../sobre.html"> Sobre</a></span>
+          <span><a href="../referencia.html">Tags</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-row-button">
+    
+        <a href="optgroup.html" >
+        <button>Anterior</button>
+        </a> 
+
+        <a href="big.html">
+            <button>Próximo</button>
+         </a> 
+              
+  </div>
+
+    <div class="content">
+      <h2>Tag HTML &lt;img></h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Como inserir uma imagem:</p>
+        <div class="example-code">
+          &lt;img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+        </div>
+      </div>
+      <h2>Definição e Uso</h2>
+      <p>
+        A tag <span class="tag-span">&lt;img></span> é usada para incorporar uma imagem em uma pagina HTML. </br>
+      </br>
+        As imagens não são tecnicamente inseridas em uma página da web; as imagens estão vinculadas a páginas da web. A tag &lt;img> cria um espaço de retenção para a imagem referenciada. </br>
+    </br>
+        A tag &lt;img> possui dois atributos obrigatórios:
+    </br>
+        &nbsp;&bull;src - Especifica o caminho para a imagem </br>
+        &nbsp;&bull;alt - Especifica um texto alternativo para a imagem, se a imagem por algum motivo não puder ser exibida </br>
+    </br>
+        <b>Observação:</b> Além disso, sempre especifique a largura e a altura de uma imagem. Se a largura e a altura não forem Especificadas, a página poderá piscar enquanto a imagem é carregada. </br>
+    </br>
+    <b>Dica:</b> Para vincular uma imagem a outro documento simplesmente aninhe a tag &lt;img> dentro de uma tag &lt;a>
+    </p>
+
+      <h2>Atributos</h2>
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>alt</td>
+          <td><i>text</i></td>
+          <td>
+            Especifica um texto alternativo para uma imagem</td>
+        </tr>
+        <tr>
+          <td>crossorigin</td>
+          <td><i>anonymous
+            use-credentials</i></td>
+          <td>Permitir que imagens de sites de terceiros que permitem acesso de origem cruzada sejam usadas com o canvas</td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td><i>pixels</i></td>
+          <td>Especifica a altura de uma imagem</td>
+        </tr>
+        <tr>
+          <td>ismap</td>
+          <td><i>ismap</i></td>
+          <td>
+            Especifica uma imagem como um mapa de imagem do lado do servidor</td>
+        </tr>
+        <tr>
+            <td>loading</td>
+            <td><i>eager lazy</i></td>
+            <td>Especifica se um navegador deve carregar uma imagem imediatamente ou adiar o carregamento de imagens até que algumas condições sejam atendidas</td>
+          </tr>
+          <tr>
+            <td>longdesc</td>
+            <td><i>URL</i></td>
+            <td>Especifica um URL para uma descrição detalhada de uma imagem</td>
+          </tr>
+          <tr>
+            <td>referrerpolicy</td>
+            <td><i>	no-referrer
+                no-referrer-when-downgrade
+                origin
+                origin-when-cross-origin
+                unsafe-url</i></td>
+            <td>Especifica quais informações de referência usar ao buscar uma imagem</td>
+          </tr>
+          <tr>
+            <td>sizes</td>
+            <td><i>sizes</i></td>
+            <td>Especifica tamanhos de imagem para diferentes layouts de página
+            </td>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td><i>URL</i></td>
+            <td>Especifica o caminho para a imagem</td>
+          </tr>
+          <tr>
+            <td>srcset</td>
+            <td><i>URL-list	</i></td>
+            <td>Especifica uma lista de arquivos de imagem para usar em diferentes situações</td>
+          </tr>
+          <tr>
+            <td>usemap</td>
+            <td><i>#mapname	</i></td>
+            <td>Especifica uma imagem como um mapa de imagem do lado do cliente</td>
+          </tr>
+          <tr>
+            <td>width</td>
+            <td><i>pixels</i></td>
+            <td>Especifica a largura de uma imagem</td>
+          </tr>
+      </table>
+      <h2>Atributos Globais</h2>
+      <p>
+        A tag <span class="tag-span">&lt;img></span> também suporta
+        <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">
+          atributos globais
+        </a>
+        do HTML.
+      </p>
+
+      <h2>Atributos de Evento</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;img></span> também suporta
+        <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">
+          atributos de evento
+        </a>
+        do HTML.
+      </p>
+
+      <h2>CSS padrão</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <div class="example-code">
+          img {<br />
+          &nbsp;display: inline-block;<br />
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="footer-disclaimer">Copyright &copy; 2021</span>
+      <div class="footer-nav-row">
+        <div class="footer-nav">
+          <span><a href="../index.html"> Homepage</a></span>
+          <span><a href="../sobre.html"> Sobre</a></span>
+          <span><a href="../referencia.html">Tags</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
