@@ -190,3 +190,7 @@ table.browser-support img {
   position: relative;
   left: 2px;
 }
+
+ul {
+  padding-left: 20px;
+}
