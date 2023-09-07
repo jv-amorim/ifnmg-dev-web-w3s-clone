@@ -80,6 +80,15 @@
   background-color: #eee;
 }
 
+.content table.ref-table a {
+  color: blue;
+}
+
+.content table.ref-table a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 th {
   text-align: left;
   padding: 5px 5px;
@@ -173,7 +182,7 @@ button {
   border-radius: 50%;
 }
 
-.browser-support img {
+table.browser-support img {
   position: relative;
   left: 2px;
 }
