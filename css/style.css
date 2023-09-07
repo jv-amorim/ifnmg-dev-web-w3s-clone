@@ -201,7 +201,33 @@ button {
   cursor: pointer;
 }
 
-#avatar {
+.integrantes {
+  max-width: 1000px;
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.integrante {
+  flex: 1;
+}
+
+.integrante .name {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.integrante .bio {
+  font-size: 14px;
+}
+
+.integrante a {
+  text-decoration: none;
+}
+
+.avatar {
   border-radius: 50%;
 }
 
@@ -221,4 +247,16 @@ ul {
 
 #sobre + .nav-row-button {
   padding-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .integrantes {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .integrante {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #282b34;
+  }
 }
